@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from './components/Button';
+
 import './styles.css'
 
 function App() {
@@ -7,9 +9,9 @@ function App() {
       <div className="content">
         <h1>Wokshop React Desenvolvimento Web I</h1>
         <div>
-          <a href="https://slt.ifsp.edu.br/portal">IFSP - Salto</a>
-          <a href="https://suap.ifsp.edu.br">SUAP</a>
-          <a href="https://moodle.slt.ifsp.edu.br/moodle2020/">Moodle</a>
+          <Button link="https://slt.ifsp.edu.br/portal" title="IFSP - Salto" />
+          <Button link="https://suap.ifsp.edu.br" title="SUAP" />
+          <Button link="https://slt.ifsp.edu.br/portal" title="Moodle" />
         </div>
       </div>
     </div>
